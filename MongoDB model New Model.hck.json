@@ -1,0 +1,359 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "program_report",
+            "type": "object",
+            "properties": [
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "b1638389-a9f5-4f78-9c65-61159f1d427c",
+                    "name": "district",
+                    "error": {}
+                },
+                {
+                    "name": "division",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "278cfa5d-7af4-41c3-9543-642ac5b4de2c",
+                    "error": {}
+                },
+                {
+                    "name": "organizing_officer",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "6aa1f10a-e937-4a43-b0f6-90e05e34f87d",
+                    "error": {}
+                },
+                {
+                    "name": "details",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "program_name",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "72ba1f10-a9b4-48ba-a8f7-7991b6352c91",
+                            "error": {}
+                        },
+                        {
+                            "name": "date",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "date",
+                            "primaryKey": false,
+                            "error": {},
+                            "GUID": "c6516632-7c3d-4291-b97d-5096f472f77c"
+                        },
+                        {
+                            "name": "time",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "36796a6b-68ef-413e-8d2a-bae5754d6bd4",
+                            "error": {}
+                        },
+                        {
+                            "name": "venue",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "3a452fea-678d-4b30-b6ee-b03fe2d0f45d",
+                            "error": {}
+                        },
+                        {
+                            "name": "beneficiaries",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "9fd77aa4-07cc-44a6-9a55-8c677d6149f2",
+                            "error": {}
+                        },
+                        {
+                            "name": "no_of_participation",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "males",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "eaf949a1-1d34-455b-a3e0-23d400b24ea8",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "females",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "5fe4e16f-a156-4191-b64d-255d7efd7c5e",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "error": {
+                                "name": false
+                            },
+                            "GUID": "c0b4a903-e041-44f2-8e14-7ce164348b28"
+                        },
+                        {
+                            "name": "amount_spent",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "numeric",
+                            "error": {},
+                            "GUID": "6c60b5c9-077c-46ae-ade5-cbb74511da95"
+                        },
+                        {
+                            "name": "source_of_fund",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "cab9aba3-8729-4a32-a1d3-c8ed962b48bf",
+                            "error": {}
+                        },
+                        {
+                            "name": "other_sponsoring",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "GUID": "1319a47f-e407-42d4-aa7a-cf1f1c60b608",
+                                    "name": "s_no",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "description",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "2a72841b-21fc-4743-82a6-51e00d942f89",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "cost",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "error": {},
+                                    "GUID": "8ef35873-bf73-49bd-ad03-fa9bd2890a4e"
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "error": {},
+                            "GUID": "f82a80f0-17ab-403e-aa63-d1476d4e9bab"
+                        },
+                        {
+                            "name": "resource_contribution",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "program_title",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "9d3c59bb-a576-45d6-900d-abfbdfe222f9",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "name_and_designation",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "0d94120e-f6b4-43f3-a93d-3aa66d458883",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "error": {},
+                            "GUID": "9ee3ab79-08d2-457f-ab40-1a9c9566df84"
+                        },
+                        {
+                            "name": "brief_description",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "GUID": "1f61dde0-dc4f-4d96-a434-06c6197cc9ff",
+                            "error": {}
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "error": {
+                        "name": false
+                    },
+                    "GUID": "69d80860-ea13-47ca-be8a-cefafa225a11"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f2bd5cb4-2c83-4580-a438-427455abafcf"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "5aba6bad-e7f8-4509-b904-feeaf74a3e58",
+            "bucketId": "7191da69-4e24-4f76-b9c5-603812d8440e"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "crpo",
+            "type": "bucket",
+            "collectionIds": [
+                "5aba6bad-e7f8-4509-b904-feeaf74a3e58"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "7191da69-4e24-4f76-b9c5-603812d8440e"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "7191da69-4e24-4f76-b9c5-603812d8440e": "crpo",
+        "5aba6bad-e7f8-4509-b904-feeaf74a3e58": "program_report",
+        "b1638389-a9f5-4f78-9c65-61159f1d427c": "district",
+        "278cfa5d-7af4-41c3-9543-642ac5b4de2c": "division",
+        "6aa1f10a-e937-4a43-b0f6-90e05e34f87d": "organizing_officer",
+        "69d80860-ea13-47ca-be8a-cefafa225a11": "details",
+        "72ba1f10-a9b4-48ba-a8f7-7991b6352c91": "program_name",
+        "c6516632-7c3d-4291-b97d-5096f472f77c": "date",
+        "36796a6b-68ef-413e-8d2a-bae5754d6bd4": "time",
+        "3a452fea-678d-4b30-b6ee-b03fe2d0f45d": "venue",
+        "9fd77aa4-07cc-44a6-9a55-8c677d6149f2": "beneficiaries",
+        "c0b4a903-e041-44f2-8e14-7ce164348b28": "no_of_participation",
+        "6c60b5c9-077c-46ae-ade5-cbb74511da95": "amount_spent",
+        "eaf949a1-1d34-455b-a3e0-23d400b24ea8": "males",
+        "5fe4e16f-a156-4191-b64d-255d7efd7c5e": "females",
+        "cab9aba3-8729-4a32-a1d3-c8ed962b48bf": "source_of_fund",
+        "f82a80f0-17ab-403e-aa63-d1476d4e9bab": "other_sponsoring",
+        "1319a47f-e407-42d4-aa7a-cf1f1c60b608": "s_no",
+        "2a72841b-21fc-4743-82a6-51e00d942f89": "description",
+        "8ef35873-bf73-49bd-ad03-fa9bd2890a4e": "cost",
+        "9ee3ab79-08d2-457f-ab40-1a9c9566df84": "resource_contribution",
+        "9d3c59bb-a576-45d6-900d-abfbdfe222f9": "program_title",
+        "0d94120e-f6b4-43f3-a93d-3aa66d458883": "name_and_designation",
+        "1f61dde0-dc4f-4d96-a434-06c6197cc9ff": "brief_description"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "e6b5da49-e421-433c-9c9b-139f9ec070cf"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "f1b94284-f684-4a31-acc2-a0a6ef3e534a"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "95d6ad4b-e8c2-4a5d-ad8f-52c4ac80e82a"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v7.x",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2024-07-22T06:42:14.213Z",
+    "GUID": "91e03b0d-89f2-4064-a969-b17c716f24ea",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-07-23T07:12:52.830Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.7.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "5aba6bad-e7f8-4509-b904-feeaf74a3e58",
+                        "x": 1089,
+                        "y": 1043,
+                        "width": 297,
+                        "height": 429,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1049,
+                        "y": 1003,
+                        "GUID": "7191da69-4e24-4f76-b9c5-603812d8440e"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
